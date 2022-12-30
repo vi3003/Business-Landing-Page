@@ -1,11 +1,12 @@
 function showm(){
-    var i1 = document.getElementById('i1');
-    var i2 = document.getElementById('i2');
-    var i3 = document.getElementById('i3');
+    var i1 = document.getElementById('i1').value;
+    var i2 = document.getElementById('i2').value;
+    var i3 = document.getElementById('i3').value;
 
-    if (i1.value === '' | i2.value==='' | i3.value===''){
+    if (i1&& i2&& i3){
+        alert("Form Submitted Successfully!")
         
     }else {
-        document.getElementById('message').style.opacity = '1';
+        alert("Please fill the mandatory fields")
     }
 }

@@ -68,7 +68,7 @@ input {
 
 .button{
     width: 15% !important;
-    margin-left:320px;  
+     
 }
 
 .sticky{
@@ -155,7 +155,8 @@ border-radius: 180px;
 
     .button{
         width: 30% !important;
-        margin-left:100px;  
+        
+        
     }
 
     .mobile-view-body{
